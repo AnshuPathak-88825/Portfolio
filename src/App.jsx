@@ -7,11 +7,12 @@ import Nav from "./Component/Nav/Nav.jsx";
 const App=()=>{
     return (
         <>
+        <Header/>
+
         <About/>
         <Contact/>
         <Experience/>
         <Footer/>
-        <Header/>
         <Nav/>
         </>
     )
