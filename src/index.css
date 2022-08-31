@@ -100,7 +100,7 @@ border-color: transparent;
 img
 {
     display: block;
-    width: 100%;
+    width:100%;
     object-fit: cover;
 }
 
@@ -120,7 +120,7 @@ img
     .container{
         width: var(--container-width-ms);
     }
-    section > h2{
+    section > h1{
         margin-bottom: 2rem;
     }
 }

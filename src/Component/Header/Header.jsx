@@ -1,6 +1,7 @@
 import HeaderCss from './Header.css';
 import ME from '../../assets/me.png';
 import CTA from './CTA';
+import Social from './Social';
 const Header=()=>{
     return (
         <header>
@@ -13,7 +14,7 @@ const Header=()=>{
                     <img src={ME} alt="" />
                 </div>
                 <a href="#contact" className='scroll_down'>Scroll down</a>
-
+                <Social/>
 
             </div>
         </header>
