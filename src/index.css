@@ -22,6 +22,7 @@
 }
 html{
     scroll-behavior: smooth;
+    font-size:15px;
 }
 ::-webkit-scrollbar
 {
@@ -51,7 +52,7 @@ h1
 }
 section
 {
-    margin-top: 8rem;
+    margin-top: 7rem;
 }
 section > h2 ,section > h5
 {
@@ -111,7 +112,7 @@ img
         width: var(--container-width-md);
     }
     section{
-        margin-top: 6rem;
+        margin-top: 5rem;
     }
 }
 /* Media Queries for smaller devices*/
@@ -120,7 +121,11 @@ img
     .container{
         width: var(--container-width-ms);
     }
-    section > h1{
-        margin-bottom: 2rem;
+    h1{
+        margin-bottom: 1.7rem;
+    }
+    html{
+        scroll-behavior: smooth;
+        font-size:12px;
     }
 }

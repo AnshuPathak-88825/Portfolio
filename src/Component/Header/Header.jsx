@@ -1,12 +1,12 @@
 import HeaderCss from './Header.css';
-import ME from '../../assets/me.png';
+import ME from '../../assets/me1.png';
 import CTA from './CTA';
 import Social from './Social';
 const Header=()=>{
     return (
         <header>
             <div className="container header_container">
-                <h5>Hello,I'm </h5>
+                <h3>Hey, I'm </h3>
                 <h1>Anshu Pathak</h1>
                 <h5 className='text-light'>Fullstack -developer </h5>
                 <CTA />

@@ -1,5 +1,5 @@
 header {
-    padding-top: 7rem;
+    padding-top: 6rem;
     height: 120vh;
     overflow: hidden;
     width: 100%;
@@ -28,7 +28,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
+    gap: 1rem;
     position: absolute;
     left: 0rem;
     bottom: 3rem;
@@ -71,7 +71,14 @@ header {
 {
     header{
         height: 100vh;
-        background-color: red;
+    }
+    .Social
+    {
+        display: none;
+    }
+    .scroll_down
+    {
+        display: none;
     }
 
 }
