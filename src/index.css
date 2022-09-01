@@ -121,7 +121,7 @@ img
     .container{
         width: var(--container-width-ms);
     }
-    h1{
+    section > h1{
         margin-bottom: 1.7rem;
     }
     html{
