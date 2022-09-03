@@ -12,8 +12,9 @@ const App=()=>{
         <Nav/>
 
         <About/>
-        <Contact/>
         <Experience/>
+
+        <Contact/>
         <Service/>
         </>
     )

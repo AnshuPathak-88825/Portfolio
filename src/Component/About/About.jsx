@@ -1,6 +1,5 @@
 import AboutCss from "./About.css";
-import Me from "../../assets/me1.png";
-import ME from "../../assets/me1.png";
+import Me from "../../assets/me2.jpg";
 import { BsAward } from "react-icons/bs";
 import { VscFolderLibrary } from "react-icons/vsc";
 const About = () => {
@@ -17,24 +16,24 @@ const About = () => {
         <div className="about_content">
           <div className="about_cards">
             <article className="about_card">
+            <BsAward className="about-icon" />
+
               <h5>Experience</h5>
-              <small>1+ year working</small>
-              <BsAward className="about-icon" />
+              <small>2+ year </small>
             </article>
 
             <article className="about_card">
-              <h5>Experience</h5>
-              <small>1+ year working</small>
-              <VscFolderLibrary className="about-icon" />
+            <VscFolderLibrary className="about-icon" />
+
+              <h5>Project</h5>
+              <small>10</small>
             </article>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
             nihil aperiam suscipit ut aliquam ullam totam nisi odit! Ratione vel
             rerum quo optio, cum expedita quam aspernatur nesciunt laudantium
-            sapiente quaerat quisquam corrupti iusto, doloribus molestiae. Et
-            unde voluptate est ullam. Incidunt eligendi vitae tempore corrupti
-            optio consectetur recusandae? 
+            sapiente  
           </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
