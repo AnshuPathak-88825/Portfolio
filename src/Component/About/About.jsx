@@ -30,10 +30,8 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
-            nihil aperiam suscipit ut aliquam ullam totam nisi odit! Ratione vel
-            rerum quo optio, cum expedita quam aspernatur nesciunt laudantium
-            sapiente  
+            Hey Everyone I'm Anshu Pathak from 🇮🇳 India. I'm a open source enthusiast . Currently I'm learning React
+            I'm a self taught developer and I love to learn new things on the go 
           </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
