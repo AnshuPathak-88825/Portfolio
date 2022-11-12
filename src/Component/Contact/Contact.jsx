@@ -33,7 +33,7 @@ const Contact = () => {
           <article className="contact_option">
             <AiFillLinkedin className="contact_option_icon" />
             <h4>Linkedin</h4>
-            <h5>Anshu pathak</h5>
+            {/* <h5>shubhanshupathak88825@gmail.com</h5> */}
             <a href="https://www.linkedin.com/in/anshu-kumar-pathak/">
               Send a Message
             </a>

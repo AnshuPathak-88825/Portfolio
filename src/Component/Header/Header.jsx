@@ -11,6 +11,7 @@ const Header=()=>{
                 <h5 className='text-light'>Fullstack -developer </h5>
                 <CTA />
                 <div className="me">
+                    <div className="hello"> <h1>Hello From India</h1></div>
                     <img src={ME} alt="" />
                 </div>
                 <a href="#contact" className='scroll_down'>Scroll down</a>
